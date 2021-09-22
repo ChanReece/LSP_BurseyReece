@@ -53,8 +53,7 @@ public class Library {
             System.out.println("Sorry, this book is already borrowed.");
         }
     }
-    
-  //Added method to print all the available books in library
+ 
     public void printAvailableBooks() {
         if (allBooks==0) {    
             System.out.print("No book in catalogue");
