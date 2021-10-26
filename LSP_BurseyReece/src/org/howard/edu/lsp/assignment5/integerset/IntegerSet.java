@@ -1,7 +1,7 @@
-package org.howard.edu.lsp.assignment3.test;
+package org.howard.edu.lsp.assignment5.integerset;
+
 
 import java.util.*;
-import java.util.Arrays;
 
 /**
  * 
@@ -143,7 +143,7 @@ public class IntegerSet {
 	 * @return the union of both sets
 	 */
 	public IntegerSet union(IntegerSet intSetb) {
-		ArrayList<Integer> temp=intSetb.ToList();
+		ArrayList<Integer> temp=intSetb.toList();
 	      
 	    Set<Integer> set = new HashSet<>();
 	    set.addAll(list);
@@ -162,7 +162,7 @@ public class IntegerSet {
 	 * @return intersected list
 	 */
 	public IntegerSet intersect(IntegerSet intSetb) {
-		 ArrayList<Integer> temp=intSetb.ToList();
+		 ArrayList<Integer> temp=intSetb.toList();
 	      
 	       list.retainAll(temp);
 	      
@@ -177,7 +177,7 @@ public class IntegerSet {
 	 * @return difference of both sets
 	 */
 	public IntegerSet diff(IntegerSet intSetb) {
-		ArrayList<Integer> temp=intSetb.ToList();
+		ArrayList<Integer> temp=intSetb.toList();
 	      
 	       // Remove all elements in list2 from list
 	       list.removeAll(temp);

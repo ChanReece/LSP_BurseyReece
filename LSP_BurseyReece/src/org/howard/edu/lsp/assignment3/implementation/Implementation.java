@@ -26,17 +26,21 @@ public class Implementation {
 		 // make 2 instance of integerset class for implementation
 		 IntegerSet set1= new IntegerSet(list1);
 		 set1.add(1);
-		 set1.add(11);
+		 set1.add(10);
 		 set1.add(2);
-		 set1.add(22);
-		 set1.add(3);
-		 set1.add(33);
+		 set1.add(88);
+		 //set1.add(22);
+		 //set1.add(3);
+		 //set1.add(33);
+		
 		 
 		 IntegerSet set2= new IntegerSet(list2);
-		 set2.add(4);
-		 set2.add(44);
-		 set2.add(5);
-		 set2.add(55);
+//		 set2.add(2);
+//		 set2.add(10);
+//		 set2.add(2);
+		 //set2.add(44);
+		 set2.add(1);
+		 //set2.add(55);
 		   
 		 System.out.println("Set 1 : " + set1.ToString());
 		 System.out.println("Set 2 : " + set2.ToString());
